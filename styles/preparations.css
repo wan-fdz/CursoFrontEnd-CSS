@@ -44,11 +44,21 @@
 
 .faq .container .faq-main-info {
     width: 50%;
-    justify-content: center;
 }
 
 .faq .container .faq-main-info .accordion {
     width: 500px;
+    margin: 0 auto;
+}
+
+.faq .container .faq-main-info .accordion .card {
+    margin-bottom: 32px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.faq .container .faq-main-info .accordion .card .card-header {
+    background-color: white;
 }
 
 .card-header h2 {
@@ -60,6 +70,8 @@
 
 .card-header .btn {
     background-color: white;
+    text-decoration: none;
+    color: var(--very-dark-blue);
 }
 
 .card-body p {
