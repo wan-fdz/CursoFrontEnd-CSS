@@ -99,11 +99,26 @@ a {
 }
 
 .hero .container .hero-img {
-    width: 50%;
+    width: 40%;
 }
 
-.hero .container.hero-img img {
+.hero .container .hero-img img {
     margin-bottom: -5px;
+    width: 110%;
 }
 
 
+.logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25%);
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0 16px 0;
+}
+
+.logos img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    filter: contrast(0) brightness(180%);
+}
